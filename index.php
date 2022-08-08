@@ -198,6 +198,12 @@
 		</div>
 	</div>
 </div>
-<?php
-get_footer();
+
+
+<script>
+$(".selected_menu_item button").on('click', function () {
+    $(".selected_filer_items").css({ 'display': 'none' });
+    $(".murban_gallery").removeClass('with_not_selected_val');
+});
+</script>
 
